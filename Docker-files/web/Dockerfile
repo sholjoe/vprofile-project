@@ -9,4 +9,5 @@ LABEL "Author"="Olusola"
 RUN rm -rf /etc/nginx/conf.d/default.conf
 
 # Copy your nginx configuration file
+# by
 COPY nginxvproapp.conf /etc/nginx/conf.d/vproapp.conf
